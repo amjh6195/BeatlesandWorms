@@ -3,8 +3,8 @@
     <style>
       @media only screen and (max-width: 600px){
   body {
-    background-color: green;
-    background-image: url("https://uncurlingwithpictures.nyc3.digitaloceanspaces.com/cicadas.jpg");
+    background-color: dark gray;
+    background-image: none;
       background-repeat: no-repeat;
       background-size: cover;
   }
@@ -15,11 +15,16 @@
                   background-repeat: no-repeat;
                       background-size: cover; } }
 
-
+@media only screen and (max-width: 600px) 
         .container {
   display: grid;
-            grid-template-columns: 300px 300px 300px 300px;
+            grid-template-columns: 250px 250px;
 }
+      @media only screen and (min-width: 601px) 
+          .container {
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+      }
 </style>
 </head><body>
            
