@@ -3,28 +3,26 @@
     <style>
       @media only screen and (max-width: 600px){
   body {
-    background-color: dark gray;
-    background-image: none;
-      background-repeat: no-repeat;
-      background-size: cover;
+    background-color: gray;
   }
       }          @media only screen and (min-width: 601px) {
               body {
-                  background-color: green;
+                  background-color: gray;
                   background-image: url("https://uncurlingwithpictures.nyc3.digitaloceanspaces.com/cicadas.jpg");
                   background-repeat: no-repeat;
                       background-size: cover; } }
 
 @media only screen and (max-width: 600px) 
         .container {
+  @media only (max-width: 600px) {
   display: grid;
             grid-template-columns: 250px 250px;
 }
-      @media only screen and (min-width: 601px) 
-          .container {
+      @media only (min-width: 601px) 
+       {
         display: grid;
         grid-template-columns: 300px 300px 300px 300px;
-      }
+        } }
 </style>
 </head><body>
            
