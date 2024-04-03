@@ -1,13 +1,22 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+      @media only screen and (max-width: 600px){
   body {
     background-color: green;
     background-image: url("https://uncurlingwithpictures.nyc3.digitaloceanspaces.com/cicadas.jpg");
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 25%;
   }
+      }          @media only screen and (min-width: 601px) {
+              body {
+                  background-color: green;
+                  background-image: url("https://uncurlingwithpictures.nyc3.digitaloceanspaces.com/cicadas.jpg");
+                  background-repeat: no-repeat;
+                      background-size: cover; } }
+              
         <img src="https://uncurlingwithpictures.nyc3.digitaloceanspaces.com/BeatlesandWorms.jpg">
+       
         .container {
   display: grid;
             grid-template-columns: 400px 400px 400px;
